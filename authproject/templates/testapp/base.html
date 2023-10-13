@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>exams</title>
+    <style>
+      h1{
+        color: red;
+      }
+      h2{
+        color: white;
+      }
+      body{
+        background:url(https://media.istockphoto.com/id/1154631974/photo/graduation-cap-and-diploma-on-table-with-books.jpg?s=1024x1024&w=is&k=20&c=PP5Q_P13umQlATCNm6AAlwF_C_47dVGsclsnGOeQ9Rg=)
+      
+      fuchsia
+      }
+      .navbar-brand{
+        
+        font-size: 50px;
+        font-weight: 900;
+        background: url(https://img.freepik.com/free-vector/abstract-background_53876-43362.jpg);
+        background-size: cover;
+        background-position: center;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        
+        
+      }
+      .nav-link{
+        color: aqua;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: x-large;
+      }
+      .nave-link{
+        color: rgb(219, 12, 139);
+        font-size: large;
+        font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        
+      }
+      
+        
+      
+      
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+          <a class="navbar-brand" href="#">AKIB JOHAR CLASSES</a>
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>&nbsp;
+              </li>
+              
+
+              <li class="nav-item ">
+                <a class="nav-link " href="/java">&nbsp;
+                  java clasess
+                </a></li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="/python">&nbsp;
+                    python clasess
+                  </a></li>
+
+                  <li class="nav-item ">
+                    <a class="nav-link " href="/apti">
+                      apptitude exam
+                    </a></li> 
+                
+              </ul>
+              <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nave-link" href="/signup">signup</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                
+                
+              </li>
+              <li class="nav-item">
+                <a class="nave-link" href="/accounts/login/">login</a> &nbsp;&nbsp;&nbsp;&nbsp;
+              </li>
+              <li class="nav-item">
+                <a class="nave-link" href="/accounts/logout/">logout</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+        {% block body_block%}
+        {% endblock %}
+    
+
+</body>
+</html>
